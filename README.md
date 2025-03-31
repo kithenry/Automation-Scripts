@@ -27,4 +27,7 @@
         - Ensure readme follows set format
         - Add todo items or cross out done items from todo list
         - Rename repo's
+
+ - Central Password Manager
+   - Secure password generation and access
  
