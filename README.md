@@ -21,9 +21,9 @@ This repository houses my personal automation toolkit—scripts designed to simp
 
 - File System Organizer
     - Goal: Maintain a tidy file system with:
-    - Empty trash bin enforcement.
-    - Naming convention checks for files in each folder.
-    - A central file location with symlinks in other folders.
+        - Empty trash bin enforcement.
+        - Naming convention checks for files in each folder.
+        - A central file location with symlinks in other folders.
 
 - Obsidian Sync Workflow Scripts
     - Goal: Automate syncing of Obsidian notes with a Git repository, supporting both Windows and Linux.
