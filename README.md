@@ -1,4 +1,4 @@
-### Personal bash and python automation scripts 
+# Personal bash and python automation scripts 
 
 #### Done
 - Telegram bot for
