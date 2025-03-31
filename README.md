@@ -1,33 +1,65 @@
-# Personal bash and python automation scripts 
+# Automation Scripts
 
-#### Done
-- Telegram bot for
-    - Adding notes to obsidian via telegram
-    - Managing my local server
-        - getting battery status
-        - getting ip address (i don't control my router so I need a way to know what the new ip is, since it is dynamic)
+A collection of Bash and Python scripts for personal productivity, server management, and streamlined workflows across Linux and Windows.
 
-#### TODO
-- PDF annotation parser
+### Overview
+This repository houses my personal automation toolkit—scripts designed to simplify note-taking, manage my local server, standardize project setups, and keep my digital life organized. It’s a mix of completed tools and works-in-progress, with a focus on practicality and cross-platform compatibility.
+
+#### Completed Tools
+- Telegram Bot
+    - Purpose: Control my workflow and server remotely via Telegram.
+
+##### Features:
+- Add notes directly to Obsidian from Telegram messages.
+- Manage my local server:
+    - Check battery status.
+    - Retrieve current IP address (a workaround for my dynamic IP setup since I don’t control the router).
+
+#### Works in Progress
+- PDF Annotation Parser
+    - Goal: Extract annotations from PDFs and format them as structured notes.
+
 - File System Organizer
-    - Script to ensure trash_bin is empty, files in each folder follow defined naming convention, central file location with other folders containing symlinks
-- Obsidian sync workflow scripts
-    - Script to make sure local repo is up to date with git main repo (with support for both my windows and linux platforms)
-- Notes decomposer
-    - Script to parse one blob of text and seperate it into respective notes each following defined format (To couter laziness being organized and the overhead from context switching when switching pages)
-- Git setup scripts
-    - Script for setting up new repos (including naming repo, generating access tokens for repo, adding token files to .gitignore)
- - System setup scripts
-    - Auto config for NVIM and VSCode
- - Project setup script
-    - Standardize project setup
-         - setup Git repo, including required branches
- - Git manager
-    - Manage All reposistories
-        - Ensure readme follows set format
-        - Add todo items or cross out done items from todo list
-        - Rename repo's
+    - Goal: Maintain a tidy file system with:
+    - Empty trash bin enforcement.
+    - Naming convention checks for files in each folder.
+    - A central file location with symlinks in other folders.
 
- - Central Password Manager
-   - Secure password generation and access
- 
+- Obsidian Sync Workflow Scripts
+    - Goal: Automate syncing of Obsidian notes with a Git repository, supporting both Windows and Linux.
+
+- Notes Decomposer
+    - Goal: Parse a single blob of text into individual, formatted notes—reducing the overhead of manual organization.
+
+- Git Setup Scripts
+    - Goal: Streamline new repository creation with:
+    - Repo naming.
+    - Access token generation and .gitignore updates.
+
+- System Setup Scripts
+    - Goal: Automate configuration for development tools like NVIM and VSCode.
+
+- Project Setup Script
+    - Goal: Standardize project initialization with:
+    - Git repository setup and required branches.
+
+- Git Manager
+    - Goal: Manage all repositories with:
+    - Standardized README formats.
+  - Automated TODO item updates (add or mark as done).
+  - Repository renaming capabilities.
+
+- Central Password Manager
+    - Goal: Provide secure password generation and access for personal use.
+
+#### Usage
+- Requirements: Bash, Python 3.x, and (for some scripts) Telegram API access.
+- Setup: Clone the repo and check individual script comments for dependencies and instructions.
+- Cross-Platform: Most scripts are designed to work on both Linux and Windows (with minor tweaks where noted).
+
+#### Contributing
+This is a personal project, but feel free to fork it or suggest ideas! I’m always looking to refine these tools.
+
+
+
+
